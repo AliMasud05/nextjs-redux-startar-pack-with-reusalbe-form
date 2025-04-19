@@ -8,7 +8,7 @@
   /* Light Theme */
   --color-background: #F5F7FA;
   --color-foreground: #1A1A1A;
-  --color-primary: #2563EB;
+  --color-primary: #E7E7E7;
   --color-secondary: #1E40AF;
   --color-success: #22C55E;
   --color-info: #90e0ef;
@@ -44,4 +44,9 @@
 }
 
 @layer base {
+}
+@media (min-width: 1010px) and (max-width: 1350px) {
+  .custom-breakpoint-example {
+    margin-top: 100px;
+  }
 }
